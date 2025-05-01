@@ -1,6 +1,6 @@
 $BinaryUrl = "https://github.com/07CalC/rustprox/releases/download/v1.0_win/rustprox.exe"
-$InstallDir = "$env:USERPROFILE\AppData\Local\Programs\proxy-tool"
-$BinaryPath = "$InstallDir\proxy-tool.exe"
+$InstallDir = "$env:USERPROFILE\AppData\Local\Programs\rustprox"
+$BinaryPath = "$InstallDir\rustprox.exe"
 
 if (!(Test-Path $InstallDir)) {
     New-Item -ItemType Directory -Path $InstallDir -Force | Out-Null
